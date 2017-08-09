@@ -1,4 +1,4 @@
-package com.test.graph.algo;
+package com.program.graph.algo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -119,7 +119,7 @@ public class Graph {
 	}
 
 
-	 static class Vertex {
+	 public static class Vertex {
 		
 		private char label;
 		private int weight;
@@ -206,7 +206,7 @@ public class Graph {
 	}
 	
 	
-	static class Edge{
+	public static class Edge {
 
 		private Vertex from;
 		private Vertex to;
